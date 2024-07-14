@@ -2,8 +2,8 @@
 
 ## Installation
 
-Nécessite `python 3.11.XX` minimum
-Un IDE tels que Visual Studio Code
+Nécessite `python 3.11.XX` minimum. |
+Un IDE tels que Visual Studio Code.
 ```
 pip install yt_dlp
 ```
