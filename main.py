@@ -1,6 +1,5 @@
 import os
 from yt_dlp import YoutubeDL
-from moviepy.editor import VideoFileClip
 
 def download_youtube_video_as_m4a(youtube_url, output_folder="result"):
     # Vérifier si le dossier de sortie existe, sinon le créer
@@ -24,4 +23,4 @@ def download_youtube_video_as_m4a(youtube_url, output_folder="result"):
     print(f"Téléchargement terminé! Le fichier m4a est sauvegardé dans {output_folder}")
 
 # Exemple d'utilisation avec une URL YouTube valide
-download_youtube_video_as_m4a("https://youtu.be/RSl3TJItVjM?si=4nnd1hGOYSF2_Lg9")
+download_youtube_video_as_m4a("<lien>")
